@@ -4,9 +4,15 @@ function App() {
 
   return (
     <>
-      <h1 className="text-red-500">
-        Hello world!
-      </h1>
+      <div
+        className='flex justify-center'
+      >
+        <h1
+          className='font-bold text-2xl text-gray-100 '
+        >
+          Exchange Rate
+        </h1>
+      </div>
     </>
   )
 }
